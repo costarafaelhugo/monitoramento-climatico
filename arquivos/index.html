@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento Climático IoT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Monitoramento de Condições Climáticas em Tempo Real</h1>
+    </header>
+
+    <section id="data-display">
+        <h2>Dados Meteorológicos</h2>
+        <div id="clima">
+            <p>Temperatura: <span id="temperatura">Carregando...</span> °C</p>
+            <p>Humidade: <span id="humidade">Carregando...</span> %</p>
+            <p>Qualidade do Ar: <span id="qualidade-ar">Carregando...</span></p>
+        </div>
+    </section>
+
+    <section id="grafico">
+        <h2>Gráfico de Temperatura</h2>
+        <canvas id="graficoTemperatura"></canvas>
+    </section>
+
+    <footer>
+        <p>Projeto Integrador IV - IoT e o Meio Ambiente</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
