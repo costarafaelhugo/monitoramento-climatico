@@ -14,10 +14,21 @@
     <section id="data-display">
         <h2>Dados Meteorológicos</h2>
         <div id="clima">
+            <p>Data: <span id="data">Carregando...</span></p>
             <p>Temperatura: <span id="temperatura">Carregando...</span> °C</p>
-            <p>Humidade: <span id="humidade">Carregando...</span> %</p>
+            <p>Umidade: <span id="humidade">Carregando...</span> %</p>
             <p>Qualidade do Ar: <span id="qualidade-ar">Carregando...</span></p>
         </div>
+        <div id="controle-data">
+            <button id="data-anterior">Dia Anterior</button>
+            <button id="data-proximo">Próximo Dia</button>
+        </div>
+
+        <!-- Nota sobre a origem dos dados -->
+<div id="nota-origem">
+    Dados fornecidos por <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>
+</div>
+
     </section>
 
     <section id="grafico">
